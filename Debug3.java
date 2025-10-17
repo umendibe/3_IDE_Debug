@@ -36,10 +36,18 @@ public class Debug3 {
 					emaitza = oper1 + oper2;
 					System.out.println("Emaitza = " + emaitza);
 				} else if (aukera == 2) {
+					/**
+					 * Akatsa: oper1 = oper1 - oper2;
+					 * Zuzenketa: emaitza = oper1 - oper2;
+					 */
 					oper1 = oper1 - oper2;
 					System.out.println("Emaitza = " + emaitza);
 				} else if (aukera == 4) {
-					if (oper2 == 1) {
+					/**
+					 * Akatsa: if (oper2 == 1)
+					 * Zuzenketa: if (oper2 == 0)
+					 */
+					if (oper2 == 0) {
 						System.out.println("0 bidez ezin da zatitu");
 						emaitza = 0; 
 					} else {
@@ -50,6 +58,10 @@ public class Debug3 {
 					emaitza = oper1 * oper2;
 					System.out.println("Emaitza = " + emaitza);
 				} else if (aukera == 5) {
+					/**
+					 * Akatsa: emaitza = oper1 % oper1;
+					 * Zuzenketa: emaitza = oper1 % oper2;
+					 */
 				emaitza = oper1 % oper2;
 					System.out.println("Emaitza = " + emaitza);
 				}
